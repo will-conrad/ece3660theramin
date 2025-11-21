@@ -1,0 +1,3010 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "eed63b0f-427e-43a5-8eb2-a64b999ffa0d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:2N3904"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N3904"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N3904_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N3904_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:2N3906"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N3906"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PNP Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N3906_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N3906_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:VEE"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VEE"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VEE\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VEE_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "VEE_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 110.49 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1105f2fc-9026-4e1d-818a-3c3a2d971fc6")
+	)
+	(junction
+		(at 97.79 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "220f2bf2-7ee8-4c15-b29b-d6c84f2d7130")
+	)
+	(junction
+		(at 143.51 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30e13939-1dcb-4a96-9dbf-91aaa6c22b4a")
+	)
+	(junction
+		(at 156.21 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38f238ce-ec7c-4825-bb07-1ac5b8847a5f")
+	)
+	(junction
+		(at 156.21 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4806de19-ad28-4bdf-a882-1f7277823e2b")
+	)
+	(junction
+		(at 114.3 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49220194-51df-4f8a-8e46-fb1892a98377")
+	)
+	(junction
+		(at 97.79 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55b5ba0e-80d7-483b-99ca-dc7e675fce33")
+	)
+	(junction
+		(at 156.21 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a1bebbc-3609-4a17-9ae2-80a185a5cc8d")
+	)
+	(junction
+		(at 129.54 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "753d3376-f6ba-4c78-8b79-706079b3e4c3")
+	)
+	(junction
+		(at 129.54 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f05ebf9-d2e8-4cff-a954-d3d3702d5c1f")
+	)
+	(junction
+		(at 114.3 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2f607a3-cc87-4e35-b921-975937b2c5a4")
+	)
+	(junction
+		(at 129.54 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a30bc192-2bcd-4177-9f63-b2e9f818f858")
+	)
+	(junction
+		(at 90.17 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab450a12-eafe-4d64-9039-2b3013e663ff")
+	)
+	(junction
+		(at 63.5 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc2681d8-bcd3-47b2-b6f7-903a97f4b51f")
+	)
+	(junction
+		(at 72.39 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5617cb3-1129-4ea0-b2ea-411c8407f15c")
+	)
+	(junction
+		(at 114.3 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc3529c6-cb09-4719-ae73-5ed29f2d16b0")
+	)
+	(junction
+		(at 121.92 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4c2b728-7a7c-4461-8d4d-1aeaf480e799")
+	)
+	(junction
+		(at 97.79 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdff08f1-fd79-4fb8-ae02-e38a024eb4c3")
+	)
+	(wire
+		(pts
+			(xy 129.54 69.85) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ec5f8b-01fc-4297-bd2d-62c890993db4")
+	)
+	(wire
+		(pts
+			(xy 129.54 87.63) (xy 129.54 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ce2af2-ff4a-40df-a550-6850750ceba8")
+	)
+	(wire
+		(pts
+			(xy 129.54 48.26) (xy 129.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2d92e0-3eb5-44ab-bbdc-18ae9d40a25c")
+	)
+	(wire
+		(pts
+			(xy 148.59 73.66) (xy 148.59 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de5f2d2-934d-4c1c-a757-35fdd4598de9")
+	)
+	(wire
+		(pts
+			(xy 148.59 82.55) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16c26efc-5a94-41b5-87b5-8a3e31973707")
+	)
+	(wire
+		(pts
+			(xy 129.54 110.49) (xy 129.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b641b11-2dbe-4057-a6d1-2e8026b0bb2c")
+	)
+	(wire
+		(pts
+			(xy 97.79 110.49) (xy 114.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c492cca-5b58-4bc5-8945-2d23e7f6142c")
+	)
+	(wire
+		(pts
+			(xy 156.21 55.88) (xy 156.21 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf90091-33bb-49ff-8512-4c4cd226834f")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 156.21 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "255b5bb5-225c-4bad-a165-4d1dcf48ea3e")
+	)
+	(wire
+		(pts
+			(xy 97.79 81.28) (xy 97.79 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26685148-2c90-4957-8916-a69ec12aa739")
+	)
+	(wire
+		(pts
+			(xy 97.79 106.68) (xy 97.79 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276ce0c6-cce3-4fde-9a25-38d35c131cba")
+	)
+	(wire
+		(pts
+			(xy 105.41 63.5) (xy 110.49 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce3e18d-d272-4eee-8ad5-83e933d922c1")
+	)
+	(wire
+		(pts
+			(xy 63.5 119.38) (xy 114.3 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "314210a1-17a3-4894-9774-6f275b4ead5f")
+	)
+	(wire
+		(pts
+			(xy 97.79 87.63) (xy 97.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3171dfa5-4c88-49c8-aef9-fd3726a59a58")
+	)
+	(wire
+		(pts
+			(xy 90.17 101.6) (xy 121.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b317ba-c82a-43d4-aa7f-16a07187aad9")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.49) (xy 129.54 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418fcef4-810c-48ce-95e5-1058d3ea1b17")
+	)
+	(wire
+		(pts
+			(xy 97.79 48.26) (xy 97.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4609616a-d740-40d7-9e60-9e2df345e7ee")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53314ebf-49d9-46db-a749-2d343f8756e9")
+	)
+	(wire
+		(pts
+			(xy 63.5 96.52) (xy 72.39 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c71a9f-d7bd-41aa-be49-a13b0fd29718")
+	)
+	(wire
+		(pts
+			(xy 72.39 96.52) (xy 72.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59754750-3c5b-4ffc-8004-aec13eab3c4a")
+	)
+	(wire
+		(pts
+			(xy 129.54 68.58) (xy 129.54 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae4d59b-23d7-4c82-ad2f-07ed9159e1d9")
+	)
+	(wire
+		(pts
+			(xy 156.21 106.68) (xy 156.21 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6623d7e2-b82c-43a3-90f3-9fec9f60ced0")
+	)
+	(wire
+		(pts
+			(xy 129.54 48.26) (xy 156.21 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691196f5-1a82-4a6d-9700-40e6a8732832")
+	)
+	(wire
+		(pts
+			(xy 156.21 88.9) (xy 173.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7233d2a3-6e55-430e-bc23-0f7da8f7654f")
+	)
+	(wire
+		(pts
+			(xy 63.5 55.88) (xy 63.5 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73044b88-29ae-40ca-bdb1-8bdf57cbcd54")
+	)
+	(wire
+		(pts
+			(xy 143.51 73.66) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78006e4b-87cc-4ee2-ae1a-5ec6c80c6e5f")
+	)
+	(wire
+		(pts
+			(xy 114.3 119.38) (xy 156.21 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c4b99ca-1fc1-4fb8-bc23-3513e158fca8")
+	)
+	(wire
+		(pts
+			(xy 72.39 101.6) (xy 90.17 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3bae98-3b72-4523-a0c5-4f4a3568b82b")
+	)
+	(wire
+		(pts
+			(xy 129.54 87.63) (xy 129.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8717b920-417d-446c-be53-a90a7894101a")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.49) (xy 114.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd87de1-b64a-4942-98e9-66e346c9b7c7")
+	)
+	(wire
+		(pts
+			(xy 110.49 68.58) (xy 110.49 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95be2869-e73d-495c-9250-d1b577fa648f")
+	)
+	(wire
+		(pts
+			(xy 156.21 83.82) (xy 156.21 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b604854-9476-4176-aa1f-c49dbe4d67cb")
+	)
+	(wire
+		(pts
+			(xy 97.79 87.63) (xy 129.54 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8289ff8-0951-40c4-be89-0e80c869c81b")
+	)
+	(wire
+		(pts
+			(xy 181.61 105.41) (xy 181.61 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb93088-a791-4e1d-95d2-9fd099182c39")
+	)
+	(wire
+		(pts
+			(xy 156.21 74.93) (xy 156.21 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc2e06a-ea6b-4130-b9ee-460ecced3f0b")
+	)
+	(wire
+		(pts
+			(xy 156.21 88.9) (xy 156.21 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ebbd89-5823-4c09-acf3-e1cdff506e60")
+	)
+	(wire
+		(pts
+			(xy 63.5 66.04) (xy 63.5 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b84f27-55b4-4dfd-b1eb-c203db76e1a5")
+	)
+	(wire
+		(pts
+			(xy 63.5 48.26) (xy 97.79 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37c4947-54ea-4d3a-a8f6-927b9ce232e1")
+	)
+	(wire
+		(pts
+			(xy 121.92 101.6) (xy 148.59 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8dd869-0ca8-4875-ab4a-b52d1644ebd8")
+	)
+	(wire
+		(pts
+			(xy 110.49 63.5) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbbb6d6e-2494-451c-ac45-2f21900b2c4e")
+	)
+	(wire
+		(pts
+			(xy 97.79 68.58) (xy 110.49 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd01d41f-055b-4d37-aa7f-2c91748124e4")
+	)
+	(wire
+		(pts
+			(xy 97.79 48.26) (xy 114.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec8a90e-8d29-470e-b4a7-ad041cd35912")
+	)
+	(wire
+		(pts
+			(xy 63.5 106.68) (xy 63.5 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e45710-f053-4999-a822-8fb088a7bb20")
+	)
+	(wire
+		(pts
+			(xy 148.59 69.85) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d603cef4-a767-4884-aee7-a6363a675ede")
+	)
+	(wire
+		(pts
+			(xy 181.61 119.38) (xy 156.21 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79c56f6-9d2f-46a9-a03f-ea2058e71fa7")
+	)
+	(wire
+		(pts
+			(xy 181.61 92.71) (xy 181.61 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e178b32f-50b6-4890-a36f-3a3f3549c53c")
+	)
+	(wire
+		(pts
+			(xy 129.54 69.85) (xy 129.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec89088b-67d0-4129-aaf7-2ed2ecc60003")
+	)
+	(wire
+		(pts
+			(xy 97.79 68.58) (xy 97.79 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f7e803-d7ec-4f4d-a931-91af62a455d3")
+	)
+	(wire
+		(pts
+			(xy 71.12 101.6) (xy 72.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28fb38f-33f3-42d7-9b30-0eb5a584a008")
+	)
+	(wire
+		(pts
+			(xy 181.61 82.55) (xy 214.63 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f400c6fe-7890-4171-a808-1432d968dc44")
+	)
+	(wire
+		(pts
+			(xy 148.59 73.66) (xy 143.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d0d17c-9cee-4b8e-a0ea-309b6199823f")
+	)
+	(global_label "V+"
+		(shape input)
+		(at 137.16 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2cd3a4d6-87af-4ead-8d74-dbe75ad9b0da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.8062 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V-"
+		(shape input)
+		(at 90.17 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3012c776-323a-4612-a5d6-da71903bbb63")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.5238 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_Op-Amp"
+		(shape input)
+		(at 214.63 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63b66e61-bf0f-48cc-9909-1552d146da30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.6542 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d1c32e-a2de-402d-8678-4fae2b298014")
+		(property "Reference" "R1"
+			(at 66.04 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 66.04 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 61.722 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ee4539f-9e3d-4b58-aa10-9f0e45542cae")
+		)
+		(pin "1"
+			(uuid "9006d1e6-0cac-4b52-a1c3-0850ab2c77a2")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 127 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0eb33ca1-73a9-4be2-84bb-d9c1d01bd10a")
+		(property "Reference" "Q6"
+			(at 132.08 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 132.08 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 132.08 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cf053b31-f7c9-4be7-9446-5ea4795b6a0d")
+		)
+		(pin "3"
+			(uuid "d822a957-c0a3-4f0c-be7d-7f715ed9f7ef")
+		)
+		(pin "1"
+			(uuid "5a6a96cb-48b1-4647-b9f0-d5ee983bfca9")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 179.07 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "116f812a-2f37-4e76-accb-35791faa779b")
+		(property "Reference" "Q10"
+			(at 184.15 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 184.15 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 184.15 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 179.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 179.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b5aeba1-aca9-410f-8d03-b3ea9975c04f")
+		)
+		(pin "3"
+			(uuid "347b20d7-aa2e-411f-b6f0-dd2791a6b74c")
+		)
+		(pin "1"
+			(uuid "3ea274e4-f03d-4f61-9109-ae38b34b84a9")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 132.08 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20c445c6-53b9-4b7f-82d3-11cf4df8ca4e")
+		(property "Reference" "Q7"
+			(at 127 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 127 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 127 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 132.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fd88e84-8d15-4e1c-b156-9118570c82c1")
+		)
+		(pin "3"
+			(uuid "2fa73f32-6504-4288-a0ab-0a5bb9ddad97")
+		)
+		(pin "1"
+			(uuid "04b5bacf-4b9b-4bf3-bf0f-2e970c3fe29b")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 127 63.5 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27ba08f8-29e6-44c1-ba6b-48769bc63d67")
+		(property "Reference" "Q5"
+			(at 132.08 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 132.08 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 132.08 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8938b738-62b7-4a50-9931-18271ebcca48")
+		)
+		(pin "2"
+			(uuid "873f48df-157d-445c-9602-fa4abc7b23c3")
+		)
+		(pin "3"
+			(uuid "47745b80-85d3-46a6-a4bb-29e97790fca8")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28a38e0c-9780-4a4d-aaf0-07df4b07e778")
+		(property "Reference" "R4"
+			(at 116.84 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 116.84 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.522 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "663dd051-722b-4eb0-b345-37f21c2ac295")
+		)
+		(pin "1"
+			(uuid "0665dd0d-2edd-4683-af3d-d1eee4786c11")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 114.3 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "308e2302-a90f-4169-94d4-548f201aa3c5")
+		(property "Reference" "#PWR01"
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 114.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 114.3 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13d1850c-59a4-4ff1-9da8-f7e5e838d200")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 181.61 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39ee40dd-a5e3-4e50-8568-5abe36092422")
+		(property "Reference" "R8"
+			(at 184.15 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 184.15 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.832 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 181.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "880ced4c-1c91-42b4-b87e-52911b0df762")
+		)
+		(pin "1"
+			(uuid "04698c69-25af-42c4-a8c7-52c06071cd9b")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65fbd52b-51a8-4c52-b4f4-f91e488541b6")
+		(property "Reference" "R6"
+			(at 158.75 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 158.75 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.432 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ecd5910-e3a0-4b9b-8435-980237c0c889")
+		)
+		(pin "1"
+			(uuid "e493cc77-4f70-4d13-999c-e5df76179c5c")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 95.25 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74ada8a2-5e9b-44d8-a3b2-76db4625524f")
+		(property "Reference" "Q2"
+			(at 100.33 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 100.33 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 100.33 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83250175-faeb-494d-941a-f30b329a35a0")
+		)
+		(pin "3"
+			(uuid "488a0eb4-4bae-4ec1-8461-3303b7404a91")
+		)
+		(pin "1"
+			(uuid "25e145f9-b3a8-474c-98c4-6df3688d3b28")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 66.04 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "942bcd3c-2336-4f1e-9a7c-90708d41c387")
+		(property "Reference" "Q1"
+			(at 60.96 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 60.96 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 60.96 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6e32ce9-e969-4751-bc0f-6a4f574705ed")
+		)
+		(pin "3"
+			(uuid "e33c6c49-899c-43d5-8e95-c85f6a99b715")
+		)
+		(pin "1"
+			(uuid "2b147f23-5d5a-455a-85c1-50f05c7cc726")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 153.67 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "946f8c7b-acea-424c-a7c4-cf30ec878fe3")
+		(property "Reference" "Q8"
+			(at 158.75 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 158.75 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 158.75 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 153.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 153.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fb53d18-07b2-46b6-8fdd-606f7359e5ff")
+		)
+		(pin "2"
+			(uuid "41cde7c2-b8dc-4320-b3f3-b1aeeb05f695")
+		)
+		(pin "3"
+			(uuid "372b0c89-dd9e-4c33-9d3f-fa92215e52a0")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 148.59 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad2aea2f-6298-46c9-90cb-7272e477b524")
+		(property "Reference" "C1"
+			(at 152.4 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 152.4 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.5552 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 148.59 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2872dc34-96e3-43c0-874a-3d6b69695156")
+		)
+		(pin "1"
+			(uuid "6bed944b-6b4a-4612-a29f-d19964d554c3")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9e957af-cb93-43ca-a9f3-2782719a3bb3")
+		(property "Reference" "R5"
+			(at 158.75 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 158.75 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.432 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ef83a76-40dc-4857-bb26-62d7c6804b35")
+		)
+		(pin "1"
+			(uuid "c810c3d4-3cf2-4e51-9808-0a5d238150fb")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 100.33 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6df5677-11f0-4e43-9769-8abf495884be")
+		(property "Reference" "Q4"
+			(at 95.25 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 95.25 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 95.25 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 100.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 100.33 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37b155e4-3089-4ff0-bd88-9627aed345fd")
+		)
+		(pin "2"
+			(uuid "cacac4cd-69e1-491e-9b04-60f56a9bc6d2")
+		)
+		(pin "3"
+			(uuid "e7e662c5-8d63-4813-8c05-dbb21743ddb5")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d557d52e-8491-412b-b2e1-2552309e6458")
+		(property "Reference" "R3"
+			(at 66.04 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 66.04 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 61.722 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d8b20d5-90eb-4bc3-a4c9-17953e466836")
+		)
+		(pin "1"
+			(uuid "39c43e4e-562f-4132-97ae-8e22b7b9a56c")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d61b9f92-ef20-4997-a591-1dc260aca0ee")
+		(property "Reference" "R2"
+			(at 66.04 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 66.04 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 61.722 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ce907cb1-bd15-48ca-9d8a-3c6bcad2bc3e")
+		)
+		(pin "1"
+			(uuid "366fa5eb-eab0-4797-a10b-c5752dcec842")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VEE")
+		(at 114.3 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0d862b7-8952-45aa-8346-e98f11e635bd")
+		(property "Reference" "#PWR02"
+			(at 114.3 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VEE"
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VEE\""
+			(at 114.3 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cc7348c-cd75-40a9-baab-b49b64c31b74")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 153.67 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2d0d6a3-9a69-4eaf-b898-6b15ae97fa28")
+		(property "Reference" "Q9"
+			(at 158.75 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 158.75 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 158.75 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 153.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d56b19dd-85c4-43a7-821a-c1057e07ba7f")
+		)
+		(pin "3"
+			(uuid "8481cd32-c1b0-4ebb-a849-6b9583478fb4")
+		)
+		(pin "1"
+			(uuid "10563b57-a1d4-42e6-96d5-229da08a91bb")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3904")
+		(at 95.25 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5894747-2456-4ecf-9e04-fbf8827a47fd")
+		(property "Reference" "Q3"
+			(at 100.33 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 100.33 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 100.33 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(at 95.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(at 95.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2601a087-009c-478f-a2f6-398aec153481")
+		)
+		(pin "3"
+			(uuid "2ca70089-fce3-4524-bf0c-ad9cda5477f8")
+		)
+		(pin "1"
+			(uuid "85f6e4d3-6643-4bc2-a0b7-36815d3a8a88")
+		)
+		(instances
+			(project "ECE 3660 Design Project"
+				(path "/ae7489fb-4acd-4c47-9498-30070a4fb91b/d35e8965-c723-4eb0-9f76-96e1d82904a7"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
