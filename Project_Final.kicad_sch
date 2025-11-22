@@ -2503,7 +2503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECA_1HHG330:CAPPRD200W50D500H1100"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 26.3652 29.21 0)
 			(effects
 				(font
@@ -3539,7 +3539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ECA_1HHG330:CAPPRD200W50D500H1100"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 101.2952 134.62 0)
 			(effects
 				(font
