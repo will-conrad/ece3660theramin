@@ -3455,7 +3455,7 @@
 		(dnp no)
 		(uuid "87032776-82f8-490a-a4dc-f43eb0d0eb3a")
 		(property "Reference" "TP1"
-			(at 36.322 43.942 90)
+			(at 34.29 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,7 +3464,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 37.592 45.974 90)
+			(at 32.512 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+		(property "Footprint" "Library:Single_Relief"
 			(at 33.02 53.34 0)
 			(effects
 				(font
